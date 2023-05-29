@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: i believe sort 1 is bubble sort because we can observe a big diference between the time it took to sort the reversed list, which would be the worst case scenario, and the already sorted list, which would be the best case scenario. this is consistent with the fact that bubble sort has O(n^2) and Omega(n). Also, as we make the list bigger, we can see an exponential diference in the time taken by the program to run, which would be expected of a program with O(n^2).  
+
+sort2 uses: merge sort
+
+How do you know?: Because the first thing that you can see in sort2 is that the time taken is the same in every scenario, which means that it must have the same O() and Omega. Given that both merge sort and selection sort share this condition, the decising factor is that sort2 is by far the fastest, which would be expected of merge sorts' (n*log n)
+
+sort3 uses: selection sort
+
+How do you know?: as in the previous sort, here we can see that the time is the same in every scenario, which means that it takes the same amount of steps no matter the order of the list or arrey. Given this, the long time that it takes to finish and the exponential time diference as lists get bigger, i believe this is selection sort.
